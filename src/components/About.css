@@ -1,0 +1,106 @@
+.about-container {
+	background-color: #ffdeb7;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-parallax {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	padding: 3rem;
+	box-shadow: 0 1px 1px hsl(0deg 0% 0% / 8%), 0 2px 2px hsl(0deg 0% 0% / 8%),
+		0 4px 4px hsl(0deg 0% 0% / 8%), 0 8px 8px hsl(0deg 0% 0% / 8%),
+		0 16px 16px hsl(0deg 0% 0% / 8%);
+	z-index: 150;
+}
+
+.flower {
+	display: block;
+	position: absolute;
+	transform: translateX(-36rem);
+	width: 50vw;
+	overflow: hidden;
+}
+
+.flower2 {
+	display: block;
+	position: absolute;
+	transform: translateX(36rem);
+	width: 25vw;
+	overflow: hidden;
+}
+
+.flower3 {
+	display: block;
+	position: absolute;
+	transform: translateX(12rem);
+	width: 12.5vw;
+	overflow: hidden;
+}
+
+.about-body h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	color: black;
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.about-body p {
+	display: block;
+	position: relative;
+	color: #000;
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+	font-size: 4rem;
+	transform: translateY(3px);
+	text-align: justify;
+	text-justify: inter-word;
+	text-transform: uppercase;
+}
+
+.down-arrow {
+	justify-content: center;
+	position: absolute;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	bottom: 30px;
+	height: 50px;
+	left: 50%;
+	margin: 0 0 0 -100px;
+	width: 200px;
+}
+
+.down-arrow svg {
+	width: 5rem;
+	display: flex;
+	fill: white;
+}
+
+@media screen and (max-width: 500px) {
+	.about-body h1 {
+		font-size: 4rem;
+	}
+}

@@ -1,0 +1,100 @@
+.portfolio-container {
+	background-color: #ff8af5;
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.portfolio-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.portfolio-body h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 200;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	padding-top: 60px;
+}
+
+.portfoliowrap {
+	display: flex;
+	overflow: hidden;
+	width: 90rem;
+}
+
+.portfoliowrap ul {
+	padding: 0;
+	max-width: 90vw;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	list-style-type: none;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	padding-bottom: 80px;
+}
+
+.portfoliowrap li {
+	padding: 2rem 2rem;
+	justify-content: center;
+}
+
+.down-arrow {
+	justify-content: center;
+	position: absolute;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	bottom: 30px;
+	height: 50px;
+	left: 50%;
+	margin: 0 0 0 -100px;
+	width: 200px;
+}
+
+.down-arrow svg {
+	width: 5rem;
+	display: flex;
+	fill: white;
+}
+
+@media (max-width: 500px) {
+	.portfoliowrap {
+		width: 40rem;
+	}
+
+	.portfoliowrap li {
+		width: 15rem;
+		display: flex;
+	}
+	.portfoliowrap li svg {
+		max-width: 30vw;
+	}
+	.portfoliowrap li img {
+		max-width: 30vw;
+		object-fit: contain;
+	}
+	.row ul {
+		flex-direction: column;
+	}
+}

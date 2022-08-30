@@ -1,0 +1,100 @@
+.team-container {
+	background-color: #fff;
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.team-body {
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 150;
+}
+
+.team-img {
+	height: 24rem;
+	overflow: hidden;
+}
+
+.team-body h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	color: black;
+	letter-spacing: 0.1rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	padding-top: 60px;
+	overflow: hidden;
+}
+
+.team-body p {
+	display: inline-block;
+	color: black;
+	letter-spacing: 0.1em;
+	line-height: 2rem;
+	font-weight: 200;
+	font-size: 1.5rem;
+	text-align: justify;
+	padding-top: 1rem;
+	max-width: 360px;
+	overflow: hidden;
+}
+
+.row ul {
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.row li {
+	padding: 20px 60px;
+	text-align: center;
+}
+
+.row h2 {
+	display: block;
+	font-size: 2.5rem;
+	letter-spacing: 0.1em;
+	font-weight: 200;
+	padding-top: 2rem;
+	text-align: center;
+}
+
+.lastfooter {
+	padding-top: 10rem;
+	display: flex;
+	font-weight: 500;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	text-align: center;
+	color: blue;
+}
+
+.lastfooter a {
+	margin: 0 auto;
+	text-align: left;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height: 2rem;
+	font-weight: 200;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+	max-width: 25vw;
+}
+
+.hyperlink {
+	color: blue;
+}
