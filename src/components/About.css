@@ -66,6 +66,7 @@
 	text-transform: uppercase;
 	padding-bottom: 18px;
 	padding-top: 18px;
+	font-family: "Futura Std", Helvetica, sans-serif;
 }
 
 .about-body p {
@@ -78,6 +79,7 @@
 	transform: translateY(3px);
 	text-align: justify;
 	padding-bottom: 18px;
+	font-family: "Futura Std", Helvetica, sans-serif;
 }
 
 .down-arrow {
