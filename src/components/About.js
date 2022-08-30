@@ -33,7 +33,15 @@ function About() {
 			</div>
 			{/* <img className="desktop-bg" src={AboutBG} alt="" /> */}
 			<div className="about-body">
-				<p>We invest in lit people and lit projects.</p>
+				<h1>About</h1>
+				<p>
+					Lit Capital is a Web3-focused stage-agnostic venture fund that invests
+					in lit projects.
+				</p>
+				<p>
+					We believe that venture is about big ideas, lasting impact, and most
+					importantly, litness.
+				</p>
 			</div>
 		</div>
 	);

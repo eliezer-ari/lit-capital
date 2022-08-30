@@ -62,8 +62,10 @@
 	color: black;
 	letter-spacing: 0.1rem;
 	font-weight: 500;
+	margin: 0;
 	text-transform: uppercase;
-	padding-bottom: 10px;
+	padding-bottom: 18px;
+	padding-top: 18px;
 }
 
 .about-body p {
@@ -72,11 +74,10 @@
 	color: #000;
 	letter-spacing: 0.1rem;
 	font-weight: 500;
-	font-size: 4rem;
+	font-size: 2rem;
 	transform: translateY(3px);
 	text-align: justify;
-	text-justify: inter-word;
-	text-transform: uppercase;
+	padding-bottom: 18px;
 }
 
 .down-arrow {
