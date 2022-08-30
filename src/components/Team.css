@@ -51,10 +51,20 @@
 	overflow: hidden;
 }
 
+.row {
+	display: block;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
+}
+
 .row ul {
 	padding: 0;
+	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 	list-style: none;
 }
 

@@ -7,15 +7,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	object-fit: cover;
 }
 
 .about-parallax {
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
+	object-fit: cover;
+	overflow: hidden;
 }
 
 .about-body {
@@ -34,7 +37,7 @@
 .flower {
 	display: block;
 	position: absolute;
-	transform: translateX(-36rem);
+	transform: translateX(-20rem);
 	width: 50vw;
 	overflow: hidden;
 }
@@ -42,7 +45,7 @@
 .flower2 {
 	display: block;
 	position: absolute;
-	transform: translateX(36rem);
+	transform: translateY(24rem) translateX(100rem);
 	width: 25vw;
 	overflow: hidden;
 }
@@ -50,7 +53,7 @@
 .flower3 {
 	display: block;
 	position: absolute;
-	transform: translateX(12rem);
+	transform: translateY(36rem) translateX(48rem);
 	width: 12.5vw;
 	overflow: hidden;
 }
@@ -105,5 +108,75 @@
 @media screen and (max-width: 500px) {
 	.about-body h1 {
 		font-size: 4rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.flower {
+		display: block;
+		position: fixed;
+		transform: translateY(18rem) translateX(-18rem);
+		width: 100vw;
+		overflow: hidden;
+		object-fit: cover;
+	}
+
+	.flower2 {
+		display: block;
+		position: fixed;
+		transform: translateY(42rem) translateX(24rem);
+		width: 50vw;
+		overflow: hidden;
+		object-fit: cover;
+	}
+
+	.flower3 {
+		display: block;
+		position: fixed;
+		transform: translateY(42rem) translateX(6rem);
+		width: 25vw;
+		overflow: hidden;
+		object-fit: cover;
+	}
+
+	.about-body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: white;
+		width: 75vw;
+		padding: 3rem;
+		box-shadow: 0 1px 1px hsl(0deg 0% 0% / 8%), 0 2px 2px hsl(0deg 0% 0% / 8%),
+			0 4px 4px hsl(0deg 0% 0% / 8%), 0 8px 8px hsl(0deg 0% 0% / 8%),
+			0 16px 16px hsl(0deg 0% 0% / 8%);
+		z-index: 150;
+	}
+
+	.about-body h1 {
+		display: block;
+		width: fit-content;
+		font-size: 4rem;
+		color: black;
+		letter-spacing: 0.1rem;
+		font-weight: 500;
+		margin: 0;
+		text-transform: uppercase;
+		padding-bottom: 18px;
+		padding-top: 18px;
+		font-family: "Futura Std", Helvetica, sans-serif;
+	}
+
+	.about-body p {
+		display: block;
+		position: relative;
+		color: #000;
+		letter-spacing: 0.1rem;
+		font-weight: 500;
+		font-size: 1.5rem;
+		transform: translateY(3px);
+		text-align: justify;
+		padding-bottom: 18px;
+		font-family: "Futura Std", Helvetica, sans-serif;
 	}
 }
