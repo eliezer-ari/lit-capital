@@ -27,7 +27,7 @@
 	align-items: center;
 	justify-content: center;
 	background-color: #453632;
-	border-color: #ffcd92;
+	border-color: #ffdeb7;
 	border-style: solid;
 	border-width: 1rem;
 	padding: 3rem;
@@ -65,27 +65,27 @@
 	display: block;
 	width: fit-content;
 	font-size: 4rem;
-	color: #ffcd92;
+	color: #ffdeb7;
 	letter-spacing: 0.1rem;
 	font-weight: 500;
 	margin: 0;
 	text-transform: uppercase;
 	padding-bottom: 18px;
 	padding-top: 18px;
-	font-family: "Futura Std", Helvetica, sans-serif;
+	font-family: "Futura", "Futura Std", sans-serif;
 }
 
 .about-body p {
 	display: block;
 	position: relative;
-	color: #ffcd92;
+	color: #ffdeb7;
 	letter-spacing: 0.1rem;
 	font-weight: 500;
 	font-size: 2rem;
 	transform: translateY(3px);
 	text-align: justify;
 	padding-bottom: 18px;
-	font-family: "Futura Std", Helvetica, sans-serif;
+	font-family: "Futura", "Futura Std", sans-serif;
 }
 
 .down-arrow {
