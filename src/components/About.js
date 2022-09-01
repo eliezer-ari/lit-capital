@@ -8,15 +8,12 @@ import Flower3 from "./images/lc-flower-3.png";
 
 function About() {
 	const parallax = useParallax({
-		easing: "easeInQuad",
 		translateY: [-30, 30],
 	});
 	const parallax2 = useParallax({
-		easing: "easeInQuad",
 		translateY: [-10, 60],
 	});
 	const parallax3 = useParallax({
-		easing: "easeInQuad",
 		translateY: [5, 105],
 	});
 
