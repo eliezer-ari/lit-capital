@@ -9,8 +9,7 @@ import { useParallax } from "react-scroll-parallax";
 
 function Team() {
 	const parallax4 = useParallax({
-		easing: "easeInQuad",
-		translateY: [20, -100],
+		translateY: [20, -20],
 	});
 
 	return (

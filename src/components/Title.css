@@ -170,4 +170,24 @@ canvas {
 		transform: translateY(5px);
 		z-index: 993;
 	}
+
+	.title-logo {
+		display: flex;
+		width: 50vw;
+		fill: white;
+		margin: 0;
+		margin-bottom: 2rem;
+	}
+
+	.title-sublogo {
+		fill: #453632;
+
+		display: block;
+		margin: 0;
+	}
+
+	.header svg {
+		z-index: 995;
+		width: 60vw;
+	}
 }
