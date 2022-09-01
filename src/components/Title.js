@@ -1,6 +1,6 @@
 import React from "react";
 import "./Title.css";
-import lcLogo from "./images/lc-logo-1.png";
+import lcLogo from "./images/lc-logo-1-br.png";
 import DesktopBG from "./images/litcapwallpaper-101.png";
 
 function Title() {

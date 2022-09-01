@@ -49,12 +49,15 @@ canvas {
 .header-bg {
 	display: flex;
 	flex-direction: column;
-	background-color: white;
+	background-color: #ffcd92;
 	position: relative;
 	width: 100%;
 	align-items: center;
 	justify-content: center;
 	padding: 3rem 9rem 3rem 9rem;
+	border-color: #453632;
+	border-style: solid;
+	border-width: 1rem;
 	box-shadow: 0 1px 1px hsl(0deg 0% 0% / 8%), 0 2px 2px hsl(0deg 0% 0% / 8%),
 		0 4px 4px hsl(0deg 0% 0% / 8%), 0 8px 8px hsl(0deg 0% 0% / 8%),
 		0 16px 16px hsl(0deg 0% 0% / 8%);
@@ -78,13 +81,12 @@ canvas {
 }
 
 .title-sublogo {
-	fill: black;
+	fill: #453632;
 	width: 30vw;
 	display: block;
 	margin: 0;
 }
 .header svg {
-	fill: white;
 	z-index: 995;
 }
 
