@@ -4,9 +4,12 @@ import "./About.css";
 import { useParallax } from "react-scroll-parallax";
 import Flower from "./images/lc-flower-1.png";
 import Flower2 from "./images/lc-flower-2.png";
-import Flower3 from "./images/lc-flower-3.png";
+// import Flower3 from "./images/lc-flower-3.png";
+import { useMediaQuery } from "react-responsive";
 
 function About() {
+	const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
+
 	const handleLoad = () => {
 		// updates cached values after image dimensions have loaded
 		this.context.parallaxController.update();
@@ -14,9 +17,11 @@ function About() {
 
 	const parallax = useParallax({
 		translateY: [-30, 30],
+		disabled: isMobile,
 	});
 	const parallax2 = useParallax({
 		translateY: [-15, 15],
+		disabled: isMobile,
 	});
 	// const parallax3 = useParallax({
 	// 	translateY: [-5, 5],

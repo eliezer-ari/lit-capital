@@ -6,10 +6,14 @@ import Three from "./images/team-plc-3.png";
 import Four from "./images/team-plc-4.png";
 // import TeamBG from "./images/team_bg.png";
 import { useParallax } from "react-scroll-parallax";
+import { useMediaQuery } from "react-responsive";
 
 function Team() {
+	const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
+
 	const parallax4 = useParallax({
 		translateY: [20, -20],
+		disabled: isMobile,
 	});
 
 	return (
